@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <link rel="shortcut icon" href="empregabilidade-2.jpeg" type="image/jpg">
+    <link rel="stylesheet" type="text/css"
+    href="style.css">
+    <meta charset="UTF-8">
+     <meta name="viewport"  content="width=device-width", initial-scale="1.0">
+      <title>Feira de Empregalidade</title>
+</head>
+<body background="imagem4.jpeg"
+bgcolor="water blue" text="black" >
+
+<div><img src="imagem3.jpeg" alt="imagem3"></div>
+
+<h2> Formulário para Participação de Vagas</h2>
+
+<h3>Informações Pessoais:</h3>
+
+<form action="#" method="post">
+
+  <label for="nome"> Nome:</label>
+
+    <input type="text" id="nome" name="nome" required >
+    <br><br>
+
+    <label for="nome social"> Nome Social:</label>
+
+    <input type="text" id="nome social" name="nome social" required >
+    <br><br>
+
+    <label for="email"> Email:</label>
+
+    <input type="text" id="email" name="email" required >
+    <br><br>
+
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" name="telefone" required>
+    <br><br>
+
+    <label for="data-nascimento">Data de Nascimento:</label>
+    <input type="date" id="data-nascimento" name="data-nascimento" required>
+    <br><br>
+
+    <label for="endereco">Endereço:</label>
+    <input type="endereco" id="endereco" name="endereco" required>
+    <br><br>
+
+    <p>Gênero:</p>
+
+    <input type="radio" id="masculino" name="Gênero" value="masculino">
+
+    <label for="masculino" > Masculino </label>
+
+    <input type="radio" id="Feminino" name="Gênero" value="Feminino">
+
+    <label for="Feminino" > Feminino </label>
+
+    <input type="radio" id="Não Binário" name="Gênero" value="Não Binário">
+
+    <label for="Não Binário" > Não Binário </label>
+
+    <input type="radio" id="Travesti" name="Gênero" value="Travesti">
+
+    <label for="Travesti" > Travesti </label>
+
+    <input type="radio" id="Prefiro não dizer" name="Gênero" value="Prefiro não dizer">
+
+    <label for="Prefiro não dizer" > Prefiro não dizer </label><br><br>
+
+    <label for="menssagem" > Menssagem: </label><br>
+
+    <textarea id="Menssagem" name="Menssagem" rows="4" cols="50"></textarea><br><br>
+
+
+    <h3>Áreas De Interesses :</h3>
+
+    <input type="checkbox" id="Tecnologia da Infomação" name="Áreas De Interesses" value="Tecnologia da Infomação">
+
+    <label for="Tecnologia da Infomação"> Tecnologia da Infomação </label>
+
+    <input type="checkbox" id="Administração" name="Áreas De Interesses" value="Administração">
+
+    <label for="Administração"> Administração </label>
+
+    <input type="checkbox" id="Biomedicina" name="Áreas De Interesses" value="Biomedicina">
+
+    <label for="Biomedicina"> Biomedicina </label><br><br>
+
+    <h3>Localidades Das Vagas:</h3>
+
+    <label for="cidade"> Cidade </label><br>
+
+    <select id="cidade" name="cidade">
+
+        <option value="sp"> São Paulo </option>
+        <option value="rj"> Rio de Janeiro</option>
+        <option value="mg"> Minas Gerais</option>
+        <option value="ba"> Bahia </option>
+        <option value="bh"> Belo Horizonte </option>
+
+    </select><br><br>
+
+    
+        <h3>Informações Adicionais</h3>
+    
+        <label for="disponibilidade">Disponibilidade para início:</label>
+        <input type="date" id="disponibilidade" name="disponibilidade" required>
+        <br><br>
+    
+        <label for="salario">Pretensão salarial (R$):</label>
+        <input type="number" id="salario" name="salario" min="0" step="0.01" required>
+        <br><br>
+    
+        <label for="referencias">Referências (opcional):</label>
+        <textarea id="referencias" name="referencias" rows="3"></textarea>
+        <br><br>
+
+    
+            <h3>Documentos</h3>
+        
+            <label for="cv">Enviar currículo (PDF ou DOCX):</label>
+            <input type="file" id="cv" name="cv" accept=".pdf, .docx" required>
+            <br><br>
+        
+            <label for="foto">Enviar foto (opcional):</label>
+            <input type="file" id="foto" name="foto" accept="image/*">
+            <br><br>
+
+        <p>Teria Interesse em participar do Feirão de Empregalidade no dia 18/09/2025 as 00:00h?</p>
+
+        <input type="radio" id="Sim" name="Teria Interesse em participar do Feirão de Empregalidade no dia 18/09/2025 as 00:00h?" value="Sim">
+
+        <label for="Sim" > Sim </label>
+    
+        <input type="radio" id="Sem Disponibilidade" name="Teria Interesse em participar do Feirão de Empregalidade no dia 18/09/2025 as 00:00h?" value="Sem Disponibilidade">
+    
+        <label for="Sem Disponibilidade" > Sem Disponibilidade </label>
+        <br><br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+
+</form>
+
+</body>
+
+</html>

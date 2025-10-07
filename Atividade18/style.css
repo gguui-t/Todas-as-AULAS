@@ -1,0 +1,28 @@
+body
+
+{
+    background-image:url(imagem4.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+div
+{
+    justify-self: center;display: flex;
+}
+ h2
+ {
+    text-align:center 
+ }
+
+ h3
+ {
+    text-align:center
+ }
+    form
+    {
+        text-align:center;
+    }
+  
+}
+

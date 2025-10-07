@@ -1,0 +1,44 @@
+body{
+    background-image:url(icone2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+    
+    h1
+    {
+        font-family:"chau philomene one", sans-serif;color:black;text-align:center;text-decoration:underline white;
+    }
+    p
+    {
+        font-family: 'franklin gothic medium','arial narrow',arial, sans-serif;color:red; font-size: 20px; font-style: italic;
+    }
+
+    h2
+    {
+        font-family: 'franklin gothic medium','arial narrow',arial, sans-serif;color:red;
+    }
+    h3
+    {
+        font-family: 'courier new',courier, monospace;color: red;
+    }
+
+    ul
+    {
+        color:black;
+    }
+    ol
+    {
+        color: black;
+    }
+    img
+    {
+        width: 250px;height: 250px ;border:black solid 15px;
+    }
+    div
+    {
+        justify-self: center;display: flex;
+    }
+
+}
