@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: palevioletred;
+    color: black;
+}
+
+header {
+    background-color: black;
+    color: blueviolet;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 6px 6px blue;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: lightgreen;
+    border: 20px;
+    padding: 30px;
+    box-shadow: 0 6px 6px blue;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+}
+
+footer{
+    background-color: lightgreen;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 6px 6px blue;
+}
+
+/* Tela Média (tablets)*/
+
+@media(max-width:1024px){
+     .card{
+        width: 45%;
+     }
+}
+/* Tela pequena (celular)*/
+@media(max-width:600px){
+    main{
+     flex-direction: column;
+     align-items: center;
+    }
+    .card{
+        width: 90%;
+    }
+    header,footer {
+        text-align: center;
+    }
+}
