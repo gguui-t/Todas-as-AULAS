@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: black;
+    line-height: 1.6;
+}
+
+.Charmander{
+    width: 800px;
+    background-color: rgb(250, 139, 65);
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 30px 30px red;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+img{
+    border-radius: 30px;
+    width: 100%;
+    overflow: auto;
+}
+
+footer{
+    background-color: rgb(110, 108, 104);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 20px 20px yellow;
+}
+
+.box{
+    width: 20vw;
+    height: 20vh;
+    background-color:black;
+    margin: 20px auto;
+}
