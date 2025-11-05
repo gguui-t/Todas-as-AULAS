@@ -1,0 +1,6 @@
+/* Para resetar o css pelo navegador podemos utilizar o seguinte codigo: ctrl ;  */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* O sinal * (asteristico) representa a pagina HTML, e com isso podemos aplicar alteraçoes na pagina inteira. Assim zeramos o padding e a margin padrão. */
